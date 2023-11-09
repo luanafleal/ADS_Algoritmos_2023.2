@@ -16,7 +16,7 @@ export function get_number(label){
     let numero = get_text(label)
 
     while(isNaN(Number(numero)) || numero === ''){
-        print('> Valor Inválido!')
+        print('   ERRO: Valor Inválido!')
 
         numero = get_text(label)
     }
